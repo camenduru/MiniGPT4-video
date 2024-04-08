@@ -7,7 +7,7 @@ model:
   low_resource: True
   image_size: 224
   end_sym: "</s>"
-  llama_model: "meta-llama/Llama-2-7b-chat-hf"
+  llama_model: "4bit/Llama-2-7b-chat-hf"
   ckpt: "checkpoints/video_llama_checkpoint_last.pth"
   use_grad_checkpoint: True
   chat_template: True

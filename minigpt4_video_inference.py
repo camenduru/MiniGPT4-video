@@ -10,7 +10,6 @@ from tqdm import tqdm
 import soundfile as sf
 import argparse
 import moviepy.editor as mp
-import gradio as gr
 from pytubefix import YouTube
 import shutil
 from PIL import Image
